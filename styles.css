@@ -4,10 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* site body color  */
 body {
   background-color: #e7e2ff;
 }
 
+/* card container style  */
 .card-container {
   display: grid;
   padding: 20;
@@ -42,6 +45,7 @@ span {
   justify-content: center;
 }
 
+/* input style  */
 input {
   border: none;
   background-color: #e7e2ff;
@@ -51,6 +55,7 @@ input {
   border-radius: 4px;
 }
 
+/* button style  */
 button {
   border: 2px solid transparent;
   padding: 8px 30px;
@@ -62,17 +67,20 @@ button {
   margin-top: 10px;
 }
 
+/* login icon style  */
 .socialLogin {
   display: grid;
   align-content: center;
   margin-top: 10px;
 }
 
+/* social icon style  */
 .socialImg {
   width: 20px;
   height: 20px;
 }
 
+/* anchor style  */
 a {
   text-decoration: none;
   display: flex;
@@ -88,11 +96,13 @@ a {
   border-radius: 10px;
 }
 
+/* anchor hover style  */
 a:hover {
   background: linear-gradient(to right, #654ff0, #806cf1);
   color: white;
 }
 
+/* button hover style  */
 button:hover {
   background: white;
   border: 2px solid #654ff0;
@@ -103,6 +113,7 @@ button:hover {
   margin-top: 10px;
 }
 
+/* image container style  */
 .imageContainer {
   background: linear-gradient(to right, #654ff0, #806cf1);
   width: -webkit-fill-available;
@@ -110,6 +121,7 @@ button:hover {
   align-items: center;
 }
 
+/* responsive using media query  */
 @media only screen and (min-width: 640px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
